@@ -1,0 +1,52 @@
+name: Fare scan
+
+on:
+  schedule:
+    - cron: "17 1,7,13,19 * * *"
+  workflow_dispatch:
+    inputs:
+      start_offset:
+        description: "Days from today to begin (1-90)"
+        required: false
+        default: "1"
+      span_days:
+        description: "Consecutive departure dates to prioritize"
+        required: false
+        default: "14"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: fare-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Search live fares
+        env:
+          DUFFEL_ACCESS_TOKEN: ${{ secrets.DUFFEL_ACCESS_TOKEN }}
+          START_OFFSET: ${{ inputs.start_offset || '' }}
+          SPAN_DAYS: ${{ inputs.span_days || '' }}
+        run: npm run search
+      - name: Commit refreshed fare data
+        run: |
+          git config user.name "fare-hunter-bot"
+          git config user.email "fare-hunter-bot@users.noreply.github.com"
+          git add data/results.json data/history.json data/state.json
+          git diff --cached --quiet || git commit -m "Update fare scan"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4
+

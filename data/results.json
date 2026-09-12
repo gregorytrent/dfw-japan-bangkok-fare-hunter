@@ -1,0 +1,8 @@
+{
+  "generatedAt": null,
+  "mode": "setup",
+  "message": "Add DUFFEL_ACCESS_TOKEN to GitHub Actions secrets, then run the Fare scan workflow.",
+  "coverage": {"queriesThisRun": 0, "matrixSize": 2160, "cursor": 0},
+  "results": []
+}
+

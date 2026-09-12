@@ -1,0 +1,23 @@
+{
+  "origin": "DFW",
+  "japanGateways": ["TYO", "OSA", "NGO", "FUK"],
+  "destination": "BKK",
+  "windowDays": 90,
+  "stopoverNights": [3, 4, 5],
+  "partySizes": [2, 3],
+  "cabinClass": "economy",
+  "maxConnectionsPerSlice": 1,
+  "preferredDepartureStart": "16:00",
+  "preferredDepartureEnd": "23:59",
+  "maxQueriesPerRun": 36,
+  "currency": "USD",
+  "resultLimit": 120,
+  "weights": {
+    "price": 0.72,
+    "connections": 0.13,
+    "nightAlignment": 0.08,
+    "duration": 0.04,
+    "risk": 0.03
+  }
+}
+

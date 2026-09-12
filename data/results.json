@@ -1,8 +1,6976 @@
 {
-  "generatedAt": null,
-  "mode": "setup",
-  "message": "Add DUFFEL_ACCESS_TOKEN to GitHub Actions secrets, then run the Fare scan workflow.",
-  "coverage": {"queriesThisRun": 0, "matrixSize": 2160, "cursor": 0},
-  "results": []
+  "generatedAt": "2026-09-12T03:37:02.485Z",
+  "mode": "live",
+  "message": null,
+  "coverage": {
+    "queriesThisRun": 36,
+    "matrixSize": 336,
+    "cursor": 0,
+    "nextCursor": 36
+  },
+  "results": [
+    {
+      "id": "FUK|3|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvGS05Qta3a4VNbn",
+      "total": 1593.45,
+      "perPerson": 531.15,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "FUK",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1255,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:05:14.296297Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "FUK",
+          "duration": "PT15H23M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "FUK",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:40:00",
+              "duration": "PT15H23M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "FUK",
+          "destination": "BKK",
+          "duration": "PT5H32M",
+          "segments": [
+            {
+              "from": "FUK",
+              "to": "BKK",
+              "depart": "2026-09-16T11:36:00",
+              "arrive": "2026-09-16T15:08:00",
+              "duration": "PT5H32M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.5113271214899,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|3|2|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvIRbkBpjBFdmE6m",
+      "total": 1062.74,
+      "perPerson": 531.37,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:05:35.914732Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T17:05:00",
+              "duration": "PT6H42M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.48991744240547,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|AA|AA4-AA4",
+      "offerId": "off_0000BAJv512jJrQ4mxHynC",
+      "total": 1063.96,
+      "perPerson": 531.98,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:03:10.302117Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T11:36:00",
+              "arrive": "2026-09-16T16:18:00",
+              "duration": "PT6H42M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 86.4860087867623,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|4|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvBeGwhlwMVDoAjZ",
+      "total": 1601.04,
+      "perPerson": 533.68,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1261,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:04:22.224509Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:10:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "UKB",
+          "destination": "BKK",
+          "duration": "PT6H8M",
+          "segments": [
+            {
+              "from": "UKB",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T16:31:00",
+              "duration": "PT6H8M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.48511581201905,
+      "isNewLow": true
+    },
+    {
+      "id": "FUK|5|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvI2PmRx7rruJH2y",
+      "total": 1614.42,
+      "perPerson": 538.14,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "FUK",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1255,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:05:31.508813Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "FUK",
+          "duration": "PT15H23M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "FUK",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:40:00",
+              "duration": "PT15H23M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "FUK",
+          "destination": "BKK",
+          "duration": "PT5H32M",
+          "segments": [
+            {
+              "from": "FUK",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T16:41:00",
+              "duration": "PT5H32M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.46653777239854,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|3|3|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvJHh2DAuuTwweLj",
+      "total": 1608.03,
+      "perPerson": 536.01,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:05:45.024432Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T17:05:00",
+              "duration": "PT6H42M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.4601860289886,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-14|AA|AA4-AA4",
+      "offerId": "off_0000BAJvJHhkAXU4W9HDS2",
+      "total": 1608.84,
+      "perPerson": 536.28,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:05:45.026119Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T17:05:00",
+              "duration": "PT6H42M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 86.45845596829409,
+      "isNewLow": false
+    },
+    {
+      "id": "FUK|3|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvG1CfyzN3X4DXlZ",
+      "total": 1081.68,
+      "perPerson": 540.84,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "FUK",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1255,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:05:09.609114Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "FUK",
+          "duration": "PT15H23M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "FUK",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:40:00",
+              "duration": "PT15H23M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "FUK",
+          "destination": "BKK",
+          "duration": "PT5H32M",
+          "segments": [
+            {
+              "from": "FUK",
+              "to": "BKK",
+              "depart": "2026-09-16T11:36:00",
+              "arrive": "2026-09-16T15:08:00",
+              "duration": "PT5H32M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.44923716545337,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|4|2|2026-09-13|AA|AA4-AA4",
+      "offerId": "off_0000BAJv6nLfCrvOtWzeZo",
+      "total": 1080.36,
+      "perPerson": 540.18,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:03:29.594400Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T17:05:00",
+              "duration": "PT6H42M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 86.43346620270663,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|AA|AA4-AA4",
+      "offerId": "off_0000BAJv5tiaMgvUfYzhkY",
+      "total": 1624.95,
+      "perPerson": 541.65,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:03:19.864169Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T11:36:00",
+              "arrive": "2026-09-16T16:18:00",
+              "duration": "PT6H42M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 86.42404698336982,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJv510bRliagMIHTg",
+      "total": 1098.16,
+      "perPerson": 549.08,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:03:10.296530Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T11:36:00",
+              "arrive": "2026-09-16T16:18:00",
+              "duration": "PT6H42M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.37643827610961,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJv5thsPKMKdMf8eQ",
+      "total": 1649.01,
+      "perPerson": 549.67,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:03:19.862656Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T11:36:00",
+              "arrive": "2026-09-16T16:18:00",
+              "duration": "PT6H42M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.37265777311049,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|3|2|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvNL0MAQS8Dicf3M",
+      "total": 1107.04,
+      "perPerson": 553.52,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1261,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:06:28.977766Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:56:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "UKB",
+          "destination": "BKK",
+          "duration": "PT6H8M",
+          "segments": [
+            {
+              "from": "UKB",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T16:31:00",
+              "duration": "PT6H8M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.35798838913314,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|5|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJv8TvCjS5bX282dA",
+      "total": 1108.94,
+      "perPerson": 554.47,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:03:47.883220Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:55:00",
+              "duration": "PT6H46M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.33523447187464,
+      "isNewLow": true
+    },
+    {
+      "id": "OSA|4|3|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvOrso0OgNEQ8vVy",
+      "total": 1677.06,
+      "perPerson": 559.02,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:06:45.571065Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:56:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "ITM",
+          "destination": "BKK",
+          "duration": "PT6H10M",
+          "segments": [
+            {
+              "from": "ITM",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:19:00",
+              "duration": "PT6H10M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.3194130786893,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|4|2|2026-09-14|AA|AA4-AA4",
+      "offerId": "off_0000BAJvK5NbTh5CaAEq16",
+      "total": 1114.22,
+      "perPerson": 557.11,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:05:53.714985Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:55:00",
+              "duration": "PT6H46M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 86.3183183228616,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|5|2|2026-09-13|AA|AA4-AA4",
+      "offerId": "off_0000BAJv8TxKbXn5dd7jxD",
+      "total": 1115.2,
+      "perPerson": 557.6,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:03:47.889741Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:55:00",
+              "duration": "PT6H46M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 86.31517858308267,
+      "isNewLow": false
+    },
+    {
+      "id": "NGO|4|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvEDsWxzXVCfuOfx",
+      "total": 1124.58,
+      "perPerson": 562.29,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "NGO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:04:50.139425Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NGO",
+          "duration": "PT14H44M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NGO",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:01:00",
+              "duration": "PT14H44M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NGO",
+          "destination": "BKK",
+          "duration": "PT6H19M",
+          "segments": [
+            {
+              "from": "NGO",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T16:42:00",
+              "duration": "PT6H19M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.29846012138903,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|5|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJv9IFmC14oNvSdDx",
+      "total": 1690.38,
+      "perPerson": 563.46,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:03:56.686715Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:55:00",
+              "duration": "PT6H46M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.27762985837946,
+      "isNewLow": false
+    },
+    {
+      "id": "FUK|4|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvHG1vQKlCkFkYPi",
+      "total": 1703.31,
+      "perPerson": 567.77,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "FUK",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1255,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:05:23.046069Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "FUK",
+          "duration": "PT15H23M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "FUK",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:40:00",
+              "duration": "PT15H23M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "FUK",
+          "destination": "BKK",
+          "duration": "PT5H32M",
+          "segments": [
+            {
+              "from": "FUK",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T15:55:00",
+              "duration": "PT5H32M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.2766796302559,
+      "isNewLow": true
+    },
+    {
+      "id": "OSA|5|3|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvPthginojATQx5X",
+      "total": 1701.9,
+      "perPerson": 567.3000000000001,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:06:56.733536Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:56:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "ITM",
+          "destination": "BKK",
+          "duration": "PT6H10M",
+          "segments": [
+            {
+              "from": "ITM",
+              "to": "BKK",
+              "depart": "2026-09-19T13:56:00",
+              "arrive": "2026-09-19T18:06:00",
+              "duration": "PT6H10M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.26635788405746,
+      "isNewLow": true
+    },
+    {
+      "id": "OSA|4|2|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvOM2fnOjtj9Btt7",
+      "total": 1142.64,
+      "perPerson": 571.32,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "OSA",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:06:40.002373Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:56:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "ITM",
+          "destination": "BKK",
+          "duration": "PT6H10M",
+          "segments": [
+            {
+              "from": "ITM",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:19:00",
+              "duration": "PT6H10M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.24059920260578,
+      "isNewLow": true
+    },
+    {
+      "id": "OSA|5|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvCBZpTMTYXxDfpg",
+      "total": 1145.78,
+      "perPerson": 572.89,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "OSA",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:04:28.049803Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:10:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "ITM",
+          "destination": "BKK",
+          "duration": "PT6H10M",
+          "segments": [
+            {
+              "from": "ITM",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:19:00",
+              "duration": "PT6H10M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.23053922004877,
+      "isNewLow": true
+    },
+    {
+      "id": "NGO|5|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvFYJ6pDSlA0gJhS",
+      "total": 1730.07,
+      "perPerson": 576.6899999999999,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "NGO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:05:04.555154Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NGO",
+          "duration": "PT14H44M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NGO",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:01:00",
+              "duration": "PT14H44M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NGO",
+          "destination": "BKK",
+          "duration": "PT6H19M",
+          "segments": [
+            {
+              "from": "NGO",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:28:00",
+              "duration": "PT6H19M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 86.2061902176815,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJv5ohWgyASnfkkhY",
+      "total": 1364,
+      "perPerson": 682,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.774005Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T01:20:00",
+              "arrive": "2026-09-16T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 85.66973580383153,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJv6ihymhkEoS6ROP",
+      "total": 2046,
+      "perPerson": 682,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.666591Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T01:20:00",
+              "arrive": "2026-09-16T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 85.66973580383153,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJv5p5dFLRy0R20GP",
+      "total": 1366.6,
+      "perPerson": 683.3,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.830952Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-16T18:25:00",
+              "arrive": "2026-09-16T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 85.64473921530238,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJv6ixvpOVNbvZBG6",
+      "total": 2049.9,
+      "perPerson": 683.3000000000001,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.683647Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-16T18:25:00",
+              "arrive": "2026-09-16T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 85.64473921530238,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL7011-JL0033",
+      "offerId": "off_0000BAJv5ohAiHssmZaT9G",
+      "total": 1422,
+      "perPerson": 711,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.772662Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T01:20:00",
+              "arrive": "2026-09-16T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 85.47558113664276,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7011-JL0033",
+      "offerId": "off_0000BAJv6ihymhkEoS6RNu",
+      "total": 2133,
+      "perPerson": 711,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.666206Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T01:20:00",
+              "arrive": "2026-09-16T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 85.47558113664276,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL7013-JL0033",
+      "offerId": "off_0000BAJv5oI0DrkdWVoMuf",
+      "total": 1422,
+      "perPerson": 711,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.744478Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T10:55:00",
+              "arrive": "2026-09-14T14:20:00",
+              "duration": "PT13H25M",
+              "airline": "JAL",
+              "flight": "JL7013"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T01:20:00",
+              "arrive": "2026-09-16T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 85.46724780330942,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7013-JL0033",
+      "offerId": "off_0000BAJv6iVZWpouByIX33",
+      "total": 2133,
+      "perPerson": 711,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.649956Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T10:55:00",
+              "arrive": "2026-09-14T14:20:00",
+              "duration": "PT13H25M",
+              "airline": "JAL",
+              "flight": "JL7013"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T01:20:00",
+              "arrive": "2026-09-16T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 85.46724780330942,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL7011-JL0707",
+      "offerId": "off_0000BAJv5oFWN5lZOoeO2R",
+      "total": 1424.6,
+      "perPerson": 712.3,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1195,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.741621Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-16T18:25:00",
+              "arrive": "2026-09-16T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 85.45058454811361,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7011-JL0707",
+      "offerId": "off_0000BAJv6jCSxM8CL0MmuP",
+      "total": 2136.9,
+      "perPerson": 712.3000000000001,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1195,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.701265Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-16T18:25:00",
+              "arrive": "2026-09-16T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 85.45058454811361,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL7013-JL0707",
+      "offerId": "off_0000BAJv5pIkSZwSf7AThc",
+      "total": 1424.6,
+      "perPerson": 712.3,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1200,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.846316Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T10:55:00",
+              "arrive": "2026-09-14T14:20:00",
+              "duration": "PT13H25M",
+              "airline": "JAL",
+              "flight": "JL7013"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-16T18:25:00",
+              "arrive": "2026-09-16T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 85.44225121478027,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7013-JL0707",
+      "offerId": "off_0000BAJv6iUrZTFk9lxxwq",
+      "total": 2136.9,
+      "perPerson": 712.3000000000001,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1200,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.649062Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T10:55:00",
+              "arrive": "2026-09-14T14:20:00",
+              "duration": "PT13H25M",
+              "airline": "JAL",
+              "flight": "JL7013"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-16T18:25:00",
+              "arrive": "2026-09-16T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 85.44225121478027,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL0011-JL0031",
+      "offerId": "off_0000BAJv5pAawtQ6FpLy0u",
+      "total": 1494,
+      "perPerson": 747,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.837335Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T10:40:00",
+              "arrive": "2026-09-16T15:10:00",
+              "duration": "PT6H30M",
+              "airline": "JAL",
+              "flight": "JL0031"
+            }
+          ]
+        }
+      ],
+      "score": 85.24490637737394,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL0011-JL0031",
+      "offerId": "off_0000BAJv6iZTIKwIO47e7i",
+      "total": 2241,
+      "perPerson": 747,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.655619Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T10:40:00",
+              "arrive": "2026-09-16T15:10:00",
+              "duration": "PT6H30M",
+              "airline": "JAL",
+              "flight": "JL0031"
+            }
+          ]
+        }
+      ],
+      "score": 85.24490637737394,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL7011-JL0031",
+      "offerId": "off_0000BAJv5oqk8hXZGG473W",
+      "total": 1614,
+      "perPerson": 807,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.793028Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T10:40:00",
+              "arrive": "2026-09-16T15:10:00",
+              "duration": "PT6H30M",
+              "airline": "JAL",
+              "flight": "JL0031"
+            }
+          ]
+        }
+      ],
+      "score": 84.85211511192591,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7011-JL0031",
+      "offerId": "off_0000BAJv6jEEqlY6QVCCfP",
+      "total": 2421,
+      "perPerson": 807,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.702552Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T10:40:00",
+              "arrive": "2026-09-16T15:10:00",
+              "duration": "PT6H30M",
+              "airline": "JAL",
+              "flight": "JL0031"
+            }
+          ]
+        }
+      ],
+      "score": 84.85211511192591,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL7013-JL0031",
+      "offerId": "off_0000BAJv5p1NVA2znF2bdU",
+      "total": 1614,
+      "perPerson": 807,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1195,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.823144Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T10:55:00",
+              "arrive": "2026-09-14T14:20:00",
+              "duration": "PT13H25M",
+              "airline": "JAL",
+              "flight": "JL7013"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T10:40:00",
+              "arrive": "2026-09-16T15:10:00",
+              "duration": "PT6H30M",
+              "airline": "JAL",
+              "flight": "JL0031"
+            }
+          ]
+        }
+      ],
+      "score": 84.84378177859257,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7013-JL0031",
+      "offerId": "off_0000BAJv6iRJmePvymJ8Pv",
+      "total": 2421,
+      "perPerson": 807,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1195,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.645005Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T10:55:00",
+              "arrive": "2026-09-14T14:20:00",
+              "duration": "PT13H25M",
+              "airline": "JAL",
+              "flight": "JL7013"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T10:40:00",
+              "arrive": "2026-09-16T15:10:00",
+              "duration": "PT6H30M",
+              "airline": "JAL",
+              "flight": "JL0031"
+            }
+          ]
+        }
+      ],
+      "score": 84.84378177859257,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7507-JL7015-JL0033",
+      "offerId": "off_0000BAJv6iT5g3pq4H8YBC",
+      "total": 1747.29,
+      "perPerson": 582.43,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": true,
+      "totalMinutes": 2060,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.645978Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT3H55M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "HND",
+              "depart": "2026-09-14T01:15:00",
+              "arrive": "2026-09-15T04:45:00",
+              "duration": "PT11H30M",
+              "airline": "JAL",
+              "flight": "JL7015"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T01:20:00",
+              "arrive": "2026-09-16T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 84.79107707550921,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7507-JL7015-JL0707",
+      "offerId": "off_0000BAJv6jDss5GWPP1v7S",
+      "total": 2136.69,
+      "perPerson": 712.23,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": true,
+      "totalMinutes": 2070,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.702388Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT3H55M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "HND",
+              "depart": "2026-09-14T01:15:00",
+              "arrive": "2026-09-15T04:45:00",
+              "duration": "PT11H30M",
+              "airline": "JAL",
+              "flight": "JL7015"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-16T18:25:00",
+              "arrive": "2026-09-16T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 83.9426997490344,
+      "isNewLow": false
+    },
+    {
+      "id": "FUK|4|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvGqD8L32XjFp85H",
+      "total": 1055.3,
+      "perPerson": 527.65,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "FUK",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1255,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:05:18.530992Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "FUK",
+          "duration": "PT15H23M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "FUK",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:40:00",
+              "duration": "PT15H23M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "FUK",
+          "destination": "BKK",
+          "duration": "PT5H32M",
+          "segments": [
+            {
+              "from": "FUK",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T15:55:00",
+              "duration": "PT5H32M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.53375383419659,
+      "isNewLow": true
+    },
+    {
+      "id": "NGO|4|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvEgwQuYtNLAxQHM",
+      "total": 1580.1,
+      "perPerson": 526.6999999999999,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "NGO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:04:55.222965Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NGO",
+          "duration": "PT14H44M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NGO",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:01:00",
+              "duration": "PT14H44M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NGO",
+          "destination": "BKK",
+          "duration": "PT6H19M",
+          "segments": [
+            {
+              "from": "NGO",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T16:42:00",
+              "duration": "PT6H19M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.52650775145507,
+      "isNewLow": true
+    },
+    {
+      "id": "NGO|3|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvDFkPS49flsg3TY",
+      "total": 1067.62,
+      "perPerson": 533.81,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "NGO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:04:39.622880Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NGO",
+          "duration": "PT14H44M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NGO",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:01:00",
+              "duration": "PT14H44M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NGO",
+          "destination": "BKK",
+          "duration": "PT6H19M",
+          "segments": [
+            {
+              "from": "NGO",
+              "to": "BKK",
+              "depart": "2026-09-16T11:36:00",
+              "arrive": "2026-09-16T15:55:00",
+              "duration": "PT6H19M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.48094948649948,
+      "isNewLow": true
+    },
+    {
+      "id": "OSA|3|3|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvNqFyZBBltkUWkG",
+      "total": 1608.36,
+      "perPerson": 536.12,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1261,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:06:34.443388Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:56:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "UKB",
+          "destination": "BKK",
+          "duration": "PT6H8M",
+          "segments": [
+            {
+              "from": "UKB",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T16:31:00",
+              "duration": "PT6H8M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.4694811894464,
+      "isNewLow": true
+    },
+    {
+      "id": "OSA|3|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvAbCjDfldRveqCQ",
+      "total": 1623.81,
+      "perPerson": 541.27,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1261,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:04:10.844072Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:10:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "UKB",
+          "destination": "BKK",
+          "duration": "PT6H8M",
+          "segments": [
+            {
+              "from": "UKB",
+              "to": "BKK",
+              "depart": "2026-09-16T11:36:00",
+              "arrive": "2026-09-16T15:44:00",
+              "duration": "PT6H8M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.43648188360655,
+      "isNewLow": true
+    },
+    {
+      "id": "FUK|5|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvHewZiN694fT7qD",
+      "total": 1092.72,
+      "perPerson": 546.36,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "FUK",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1255,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:05:27.403723Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "FUK",
+          "duration": "PT15H23M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "FUK",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:40:00",
+              "duration": "PT15H23M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "FUK",
+          "destination": "BKK",
+          "duration": "PT5H32M",
+          "segments": [
+            {
+              "from": "FUK",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T16:41:00",
+              "duration": "PT5H32M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.41386703569881,
+      "isNewLow": true
+    },
+    {
+      "id": "NGO|3|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvDjKvRNazXWz7uW",
+      "total": 1633.14,
+      "perPerson": 544.38,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "NGO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:04:44.797911Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NGO",
+          "duration": "PT14H44M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NGO",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:01:00",
+              "duration": "PT14H44M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NGO",
+          "destination": "BKK",
+          "duration": "PT6H19M",
+          "segments": [
+            {
+              "from": "NGO",
+              "to": "BKK",
+              "depart": "2026-09-16T11:36:00",
+              "arrive": "2026-09-16T15:55:00",
+              "duration": "PT6H19M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.41322081412527,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|4|3|2026-09-14|AA|AA4-AA4",
+      "offerId": "off_0000BAJvKs3wnnPnsY7ruU",
+      "total": 1630.47,
+      "perPerson": 543.49,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:06:02.229037Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:55:00",
+              "duration": "PT6H46M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 83.40559027345164,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|5|3|2026-09-13|AA|AA4-AA4",
+      "offerId": "off_0000BAJv9IHC6kD8SK7lQH",
+      "total": 1632.69,
+      "perPerson": 544.23,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:03:56.690303Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:55:00",
+              "duration": "PT6H46M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 83.40084862562223,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|5|2|2026-09-14|AA|AA4-AA4",
+      "offerId": "off_0000BAJvLl08DS6PxU3Yqy",
+      "total": 1090.16,
+      "perPerson": 545.08,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:06:11.837600Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-19T13:56:00",
+              "arrive": "2026-09-19T18:42:00",
+              "duration": "PT6H46M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 83.3954021382506,
+      "isNewLow": true
+    },
+    {
+      "id": "OSA|5|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvCjHTF7EK15rV8u",
+      "total": 1641.9,
+      "perPerson": 547.3000000000001,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:04:33.944853Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:10:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "ITM",
+          "destination": "BKK",
+          "duration": "PT6H10M",
+          "segments": [
+            {
+              "from": "ITM",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:19:00",
+              "duration": "PT6H10M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.3945105280957,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|5|3|2026-09-14|AA|AA4-AA4",
+      "offerId": "off_0000BAJvMXk1KNGpQrbQGK",
+      "total": 1638.78,
+      "perPerson": 546.26,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:06:20.361140Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-19T13:56:00",
+              "arrive": "2026-09-19T18:42:00",
+              "duration": "PT6H46M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 83.38784113225233,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|4|3|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvKs3EqQqdqLnIn5",
+      "total": 1641.18,
+      "perPerson": 547.0600000000001,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:06:02.226463Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:55:00",
+              "duration": "PT6H46M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.38271502649081,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|4|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvBA8wOjlskY7os7",
+      "total": 1100.72,
+      "perPerson": 550.36,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "OSA",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1261,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:04:16.955122Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:10:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "UKB",
+          "destination": "BKK",
+          "duration": "PT6H8M",
+          "segments": [
+            {
+              "from": "UKB",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T16:31:00",
+              "duration": "PT6H8M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.37823650689117,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|4|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJv6nKbGp4eqEUnv0",
+      "total": 1101.72,
+      "perPerson": 550.86,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:03:29.591150Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T17:05:00",
+              "duration": "PT6H42M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.3650326907902,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|3|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJv7fUUpFq3sKZSdb",
+      "total": 1658.4,
+      "perPerson": 552.8000000000001,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:03:39.063702Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T17:05:00",
+              "duration": "PT6H42M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.3526018843185,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|4|3|2026-09-13|AA|AA4-AA4",
+      "offerId": "off_0000BAJv7fVYlIgnvd4JHk",
+      "total": 1676.88,
+      "perPerson": 558.96,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:03:39.066060Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T13:42:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T17:05:00",
+              "duration": "PT6H42M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 83.31313086995473,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|2|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvLkzQG5XFvHizkS",
+      "total": 1128.42,
+      "perPerson": 564.21,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:06:11.835826Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-19T13:56:00",
+              "arrive": "2026-09-19T18:42:00",
+              "duration": "PT6H46M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.27282413422803,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-14|AA|AA4-AA4",
+      "offerId": "off_0000BAJvIRc6AW0lGjwVej",
+      "total": 1132.66,
+      "perPerson": 566.33,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "American Airlines",
+      "ownerCode": "AA",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1267,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:05:35.915425Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H42M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T12:23:00",
+              "arrive": "2026-09-17T17:05:00",
+              "duration": "PT6H42M",
+              "airline": "American Airlines",
+              "flight": "AA4"
+            }
+          ]
+        }
+      ],
+      "score": 83.26590662062664,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|2|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvK5MXXeESWrjzLS",
+      "total": 1134.6,
+      "perPerson": 567.3,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:05:53.711122Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:55:00",
+              "duration": "PT6H46M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.25302455072412,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|3|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvA7MfZN4U9Sktxu",
+      "total": 1140.68,
+      "perPerson": 570.34,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1261,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:04:05.625222Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:10:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "UKB",
+          "destination": "BKK",
+          "duration": "PT6H8M",
+          "segments": [
+            {
+              "from": "UKB",
+              "to": "BKK",
+              "depart": "2026-09-16T11:36:00",
+              "arrive": "2026-09-16T15:44:00",
+              "duration": "PT6H8M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.25021201549698,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|5|3|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvMXixOKQ5NZ6Zbs",
+      "total": 1704.12,
+      "perPerson": 568.04,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1271,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:06:20.358684Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT14H25M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:28:00",
+              "duration": "PT14H25M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H46M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-19T13:56:00",
+              "arrive": "2026-09-19T18:42:00",
+              "duration": "PT6H46M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.24828290289472,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7507-JL7015-JL0031",
+      "offerId": "off_0000BAJv6j6nIRau3PiG4I",
+      "total": 2478.09,
+      "perPerson": 826.0300000000001,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": true,
+      "totalMinutes": 2065,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.695767Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT3H55M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "HND",
+              "depart": "2026-09-14T01:15:00",
+              "arrive": "2026-09-15T04:45:00",
+              "duration": "PT11H30M",
+              "airline": "JAL",
+              "flight": "JL7015"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T10:40:00",
+              "arrive": "2026-09-16T15:10:00",
+              "duration": "PT6H30M",
+              "airline": "JAL",
+              "flight": "JL0031"
+            }
+          ]
+        }
+      ],
+      "score": 83.2218445377902,
+      "isNewLow": false
+    },
+    {
+      "id": "NGO|5|2|2026-09-13|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvF7xBOtIWB5XtTw",
+      "total": 1152.54,
+      "perPerson": 576.27,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "NGO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:04:59.946429Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NGO",
+          "duration": "PT14H44M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NGO",
+              "depart": "2026-09-13T09:17:00",
+              "arrive": "2026-09-14T14:01:00",
+              "duration": "PT14H44M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "NGO",
+          "destination": "BKK",
+          "duration": "PT6H19M",
+          "segments": [
+            {
+              "from": "NGO",
+              "to": "BKK",
+              "depart": "2026-09-18T13:09:00",
+              "arrive": "2026-09-18T17:28:00",
+              "duration": "PT6H19M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.20888142320631,
+      "isNewLow": true
+    },
+    {
+      "id": "OSA|5|2|2026-09-14|ZZ|ZZ9788-ZZ9788",
+      "offerId": "off_0000BAJvPOhxxicV2MKEhY",
+      "total": 1156.48,
+      "perPerson": 578.24,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "OSA",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "Duffel Airways",
+      "ownerCode": "ZZ",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1263,
+      "selfTransfer": true,
+      "expiresAt": "2026-09-12T04:06:51.312871Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "UKB",
+          "duration": "PT14H53M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "UKB",
+              "depart": "2026-09-14T10:03:00",
+              "arrive": "2026-09-15T14:56:00",
+              "duration": "PT14H53M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        },
+        {
+          "origin": "ITM",
+          "destination": "BKK",
+          "duration": "PT6H10M",
+          "segments": [
+            {
+              "from": "ITM",
+              "to": "BKK",
+              "depart": "2026-09-19T13:56:00",
+              "arrive": "2026-09-19T18:06:00",
+              "duration": "PT6H10M",
+              "airline": "Duffel Airways",
+              "flight": "ZZ9788"
+            }
+          ]
+        }
+      ],
+      "score": 83.19625838776854,
+      "isNewLow": true
+    },
+    {
+      "id": "OSA|3|2|2026-09-13|JL|JL7507-JL0069-JL0727",
+      "offerId": "off_0000BAJvAXpHBdP2DiL7A4",
+      "total": 1341.6,
+      "perPerson": 670.8,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1420,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:10.207503Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "KIX",
+          "duration": "PT17H55M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "KIX",
+              "depart": "2026-09-13T15:00:00",
+              "arrive": "2026-09-14T18:45:00",
+              "duration": "PT11H45M",
+              "airline": "JAL",
+              "flight": "JL0069"
+            }
+          ]
+        },
+        {
+          "origin": "KIX",
+          "destination": "BKK",
+          "duration": "PT5H45M",
+          "segments": [
+            {
+              "from": "KIX",
+              "to": "BKK",
+              "depart": "2026-09-16T00:55:00",
+              "arrive": "2026-09-16T04:40:00",
+              "duration": "PT5H45M",
+              "airline": "JAL",
+              "flight": "JL0727"
+            }
+          ]
+        }
+      ],
+      "score": 82.09150128449294,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|3|3|2026-09-13|JL|JL7507-JL0069-JL0727",
+      "offerId": "off_0000BAJvB5HjNdauk8EGA6",
+      "total": 2012.4,
+      "perPerson": 670.8000000000001,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1420,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:15.924645Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "KIX",
+          "duration": "PT17H55M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "KIX",
+              "depart": "2026-09-13T15:00:00",
+              "arrive": "2026-09-14T18:45:00",
+              "duration": "PT11H45M",
+              "airline": "JAL",
+              "flight": "JL0069"
+            }
+          ]
+        },
+        {
+          "origin": "KIX",
+          "destination": "BKK",
+          "duration": "PT5H45M",
+          "segments": [
+            {
+              "from": "KIX",
+              "to": "BKK",
+              "depart": "2026-09-16T00:55:00",
+              "arrive": "2026-09-16T04:40:00",
+              "duration": "PT5H45M",
+              "airline": "JAL",
+              "flight": "JL0727"
+            }
+          ]
+        }
+      ],
+      "score": 82.09150128449294,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|3|2|2026-09-13|JL|JL0011-JL0131-JL0727",
+      "offerId": "off_0000BAJvAXjFY2a9v1WIlu",
+      "total": 1384.4,
+      "perPerson": 692.2,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1340,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:10.194642Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "ITM",
+          "duration": "PT16H35M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            },
+            {
+              "from": "HND",
+              "to": "ITM",
+              "depart": "2026-09-14T17:35:00",
+              "arrive": "2026-09-14T18:40:00",
+              "duration": "PT1H5M",
+              "airline": "JAL",
+              "flight": "JL0131"
+            }
+          ]
+        },
+        {
+          "origin": "KIX",
+          "destination": "BKK",
+          "duration": "PT5H45M",
+          "segments": [
+            {
+              "from": "KIX",
+              "to": "BKK",
+              "depart": "2026-09-16T00:55:00",
+              "arrive": "2026-09-16T04:40:00",
+              "duration": "PT5H45M",
+              "airline": "JAL",
+              "flight": "JL0727"
+            }
+          ]
+        }
+      ],
+      "score": 82.08771128870535,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|3|3|2026-09-13|JL|JL7013-JL0127-JL0727",
+      "offerId": "off_0000BAJvB4nbBfUXEg8CCb",
+      "total": 2163.6,
+      "perPerson": 721.1999999999999,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1345,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:15.879480Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "ITM",
+          "duration": "PT16H40M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T10:55:00",
+              "arrive": "2026-09-14T14:20:00",
+              "duration": "PT13H25M",
+              "airline": "JAL",
+              "flight": "JL7013"
+            },
+            {
+              "from": "HND",
+              "to": "ITM",
+              "depart": "2026-09-14T16:30:00",
+              "arrive": "2026-09-14T17:35:00",
+              "duration": "PT1H5M",
+              "airline": "JAL",
+              "flight": "JL0127"
+            }
+          ]
+        },
+        {
+          "origin": "KIX",
+          "destination": "BKK",
+          "duration": "PT5H45M",
+          "segments": [
+            {
+              "from": "KIX",
+              "to": "BKK",
+              "depart": "2026-09-16T00:55:00",
+              "arrive": "2026-09-16T04:40:00",
+              "duration": "PT5H45M",
+              "airline": "JAL",
+              "flight": "JL0727"
+            }
+          ]
+        }
+      ],
+      "score": 81.8935566215166,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|2|2026-09-13|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJv7aCpYUySQKEn83",
+      "total": 2562,
+      "perPerson": 1281,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:37.874348Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T01:20:00",
+              "arrive": "2026-09-17T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.83156411488648,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|2|2026-09-13|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJv9DTpLZWSpRfpLS",
+      "total": 2562,
+      "perPerson": 1281,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:55.709399Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-18T01:20:00",
+              "arrive": "2026-09-18T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.83156411488648,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-14|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJvJDTEEnR9h8A6Vk",
+      "total": 2562,
+      "perPerson": 1281,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:44.075276Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T01:20:00",
+              "arrive": "2026-09-17T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.83156411488648,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|2|2026-09-14|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJvKo9f0NfTRx3q19",
+      "total": 2562,
+      "perPerson": 1281,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:36:01.421217Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-18T01:20:00",
+              "arrive": "2026-09-18T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.83156411488648,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|2|2026-09-14|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJvMTT2tJNJrtvH2B",
+      "total": 2562,
+      "perPerson": 1281,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:36:19.548329Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-19T01:20:00",
+              "arrive": "2026-09-19T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.83156411488648,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|3|2026-09-13|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJv8PaRRTvWq5hrHX",
+      "total": 3843,
+      "perPerson": 1281,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:47.044919Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T01:20:00",
+              "arrive": "2026-09-17T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.83156411488648,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|3|2026-09-13|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJvA2wabAehC1qTKL",
+      "total": 3843,
+      "perPerson": 1281,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:04.766692Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-18T01:20:00",
+              "arrive": "2026-09-18T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.83156411488648,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-14|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJvK1UtucXkXdcbov",
+      "total": 3843,
+      "perPerson": 1281,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:52.932377Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T01:20:00",
+              "arrive": "2026-09-17T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.83156411488648,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|3|2026-09-14|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJvLgsLsfRXTM5pOV",
+      "total": 3843,
+      "perPerson": 1281,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:36:10.980620Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-18T01:20:00",
+              "arrive": "2026-09-18T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.83156411488648,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|3|2026-09-14|JL|JL0011-JL0033",
+      "offerId": "off_0000BAJvNFykqxCUdIpoLC",
+      "total": 3843,
+      "perPerson": 1281,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1180,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:36:27.994918Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-19T01:20:00",
+              "arrive": "2026-09-19T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.83156411488648,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|2|2026-09-13|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJv7ZwsVoDJcqm3FM",
+      "total": 2564.6,
+      "perPerson": 1282.3,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:37.833241Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-17T18:25:00",
+              "arrive": "2026-09-17T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.80656752635733,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|2|2026-09-13|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJv9DFeCIBE7T2VF5",
+      "total": 2564.6,
+      "perPerson": 1282.3,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:55.686986Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T18:25:00",
+              "arrive": "2026-09-18T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.80656752635733,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-14|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJvJDYBwLPHwWU4FM",
+      "total": 2564.6,
+      "perPerson": 1282.3,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:44.082542Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-17T18:25:00",
+              "arrive": "2026-09-17T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.80656752635733,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|2|2026-09-14|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJvKnqAAs4WTTwGd2",
+      "total": 2564.6,
+      "perPerson": 1282.3,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:36:01.381380Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T18:25:00",
+              "arrive": "2026-09-18T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.80656752635733,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|2|2026-09-14|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJvMTT2tJNJrtvH1t",
+      "total": 2564.6,
+      "perPerson": 1282.3,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:36:19.548009Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-19T18:25:00",
+              "arrive": "2026-09-19T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.80656752635733,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|3|2026-09-13|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJv8PddFcTkzzCPFg",
+      "total": 3846.9,
+      "perPerson": 1282.3,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:47.051899Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-17T18:25:00",
+              "arrive": "2026-09-17T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.80656752635733,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|3|2026-09-13|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJvA3R4lp2eia6oqM",
+      "total": 3846.9,
+      "perPerson": 1282.3,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:04.817039Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T18:25:00",
+              "arrive": "2026-09-18T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.80656752635733,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-14|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJvK1bdVZvmsWlzJm",
+      "total": 3846.9,
+      "perPerson": 1282.3,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:52.943554Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-17T18:25:00",
+              "arrive": "2026-09-17T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.80656752635733,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|3|2026-09-14|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJvLgxfYthFjqa4ge",
+      "total": 3846.9,
+      "perPerson": 1282.3,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:36:10.994565Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-18T18:25:00",
+              "arrive": "2026-09-18T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.80656752635733,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|3|2026-09-14|JL|JL0011-JL0707",
+      "offerId": "off_0000BAJvNFykqxCUdIpoKu",
+      "total": 3846.9,
+      "perPerson": 1282.3,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1190,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:36:27.994149Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT13H15M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-14T12:05:00",
+              "arrive": "2026-09-15T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-19T18:25:00",
+              "arrive": "2026-09-19T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.80656752635733,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL7507-JL0015-JL0033",
+      "offerId": "off_0000BAJv5p25SWc9pRNAjo",
+      "total": 1463,
+      "perPerson": 731.5,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1380,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.824609Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT16H35M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "HND",
+              "depart": "2026-09-13T14:00:00",
+              "arrive": "2026-09-14T17:25:00",
+              "duration": "PT11H25M",
+              "airline": "JAL",
+              "flight": "JL0015"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T01:20:00",
+              "arrive": "2026-09-16T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.76922467650357,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7507-JL0015-JL0033",
+      "offerId": "off_0000BAJv6j9z6a98DJCo2I",
+      "total": 2194.5,
+      "perPerson": 731.5,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1380,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.698228Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT16H35M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "HND",
+              "depart": "2026-09-13T14:00:00",
+              "arrive": "2026-09-14T17:25:00",
+              "duration": "PT11H25M",
+              "airline": "JAL",
+              "flight": "JL0015"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T01:20:00",
+              "arrive": "2026-09-16T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.76922467650357,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL7507-JL0015-JL0031",
+      "offerId": "off_0000BAJv5p25SWc9pRNAjT",
+      "total": 1463,
+      "perPerson": 731.5,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1385,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.824406Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT16H35M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "HND",
+              "depart": "2026-09-13T14:00:00",
+              "arrive": "2026-09-14T17:25:00",
+              "duration": "PT11H25M",
+              "airline": "JAL",
+              "flight": "JL0015"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T10:40:00",
+              "arrive": "2026-09-16T15:10:00",
+              "duration": "PT6H30M",
+              "airline": "JAL",
+              "flight": "JL0031"
+            }
+          ]
+        }
+      ],
+      "score": 81.76089134317024,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7507-JL0015-JL0031",
+      "offerId": "off_0000BAJv6ifquc2khr6k4R",
+      "total": 2194.5,
+      "perPerson": 731.5,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1385,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.662895Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT16H35M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "HND",
+              "depart": "2026-09-13T14:00:00",
+              "arrive": "2026-09-14T17:25:00",
+              "duration": "PT11H25M",
+              "airline": "JAL",
+              "flight": "JL0015"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T10:40:00",
+              "arrive": "2026-09-16T15:10:00",
+              "duration": "PT6H30M",
+              "airline": "JAL",
+              "flight": "JL0031"
+            }
+          ]
+        }
+      ],
+      "score": 81.76089134317024,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|3|2|2026-09-13|JL|JL0011-JL0229-JL0727",
+      "offerId": "off_0000BAJvAXljOoZE2igHdV",
+      "total": 1387.2,
+      "perPerson": 693.6,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1535,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:10.201162Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "KIX",
+          "duration": "PT19H50M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            },
+            {
+              "from": "HND",
+              "to": "KIX",
+              "depart": "2026-09-14T20:40:00",
+              "arrive": "2026-09-14T21:55:00",
+              "duration": "PT1H15M",
+              "airline": "JAL",
+              "flight": "JL0229"
+            }
+          ]
+        },
+        {
+          "origin": "KIX",
+          "destination": "BKK",
+          "duration": "PT5H45M",
+          "segments": [
+            {
+              "from": "KIX",
+              "to": "BKK",
+              "depart": "2026-09-16T00:55:00",
+              "arrive": "2026-09-16T04:40:00",
+              "duration": "PT5H45M",
+              "airline": "JAL",
+              "flight": "JL0727"
+            }
+          ]
+        }
+      ],
+      "score": 81.75374060362269,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|3|3|2026-09-13|JL|JL0011-JL0229-JL0727",
+      "offerId": "off_0000BAJvB4mtEIvNCTnd61",
+      "total": 2080.8,
+      "perPerson": 693.6,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1535,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:15.877694Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "KIX",
+          "duration": "PT19H50M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T12:05:00",
+              "arrive": "2026-09-14T15:20:00",
+              "duration": "PT13H15M",
+              "airline": "JAL",
+              "flight": "JL0011"
+            },
+            {
+              "from": "HND",
+              "to": "KIX",
+              "depart": "2026-09-14T20:40:00",
+              "arrive": "2026-09-14T21:55:00",
+              "duration": "PT1H15M",
+              "airline": "JAL",
+              "flight": "JL0229"
+            }
+          ]
+        },
+        {
+          "origin": "KIX",
+          "destination": "BKK",
+          "duration": "PT5H45M",
+          "segments": [
+            {
+              "from": "KIX",
+              "to": "BKK",
+              "depart": "2026-09-16T00:55:00",
+              "arrive": "2026-09-16T04:40:00",
+              "duration": "PT5H45M",
+              "airline": "JAL",
+              "flight": "JL0727"
+            }
+          ]
+        }
+      ],
+      "score": 81.75374060362269,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|3|3|2026-09-13|JL|JL7011-JL3009-JL0727",
+      "offerId": "off_0000BAJvB50iOtz1tMGfdy",
+      "total": 2161.2,
+      "perPerson": 720.4,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1435,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:15.899053Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "ITM",
+          "duration": "PT18H10M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            },
+            {
+              "from": "NRT",
+              "to": "ITM",
+              "depart": "2026-09-14T18:25:00",
+              "arrive": "2026-09-14T19:50:00",
+              "duration": "PT1H25M",
+              "airline": "JAL",
+              "flight": "JL3009"
+            }
+          ]
+        },
+        {
+          "origin": "KIX",
+          "destination": "BKK",
+          "duration": "PT5H45M",
+          "segments": [
+            {
+              "from": "KIX",
+              "to": "BKK",
+              "depart": "2026-09-16T00:55:00",
+              "arrive": "2026-09-16T04:40:00",
+              "duration": "PT5H45M",
+              "airline": "JAL",
+              "flight": "JL0727"
+            }
+          ]
+        }
+      ],
+      "score": 81.74868272727812,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|JL|JL7507-JL0015-JL0707",
+      "offerId": "off_0000BAJv5otZy9oDP3ONTt",
+      "total": 1465.6,
+      "perPerson": 732.8,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1390,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.800089Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT16H35M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "HND",
+              "depart": "2026-09-13T14:00:00",
+              "arrive": "2026-09-14T17:25:00",
+              "duration": "PT11H25M",
+              "airline": "JAL",
+              "flight": "JL0015"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-16T18:25:00",
+              "arrive": "2026-09-16T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.74422808797442,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-13|JL|JL7507-JL0015-JL0707",
+      "offerId": "off_0000BAJv6jDss5GWPP1v7B",
+      "total": 2198.4,
+      "perPerson": 732.8000000000001,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1390,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:28.702206Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "PT16H35M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "LAX",
+              "depart": "2026-09-13T10:50:00",
+              "arrive": "2026-09-13T12:05:00",
+              "duration": "PT3H15M",
+              "airline": "JAL",
+              "flight": "JL7507"
+            },
+            {
+              "from": "LAX",
+              "to": "HND",
+              "depart": "2026-09-13T14:00:00",
+              "arrive": "2026-09-14T17:25:00",
+              "duration": "PT11H25M",
+              "airline": "JAL",
+              "flight": "JL0015"
+            }
+          ]
+        },
+        {
+          "origin": "NRT",
+          "destination": "BKK",
+          "duration": "PT6H35M",
+          "segments": [
+            {
+              "from": "NRT",
+              "to": "BKK",
+              "depart": "2026-09-16T18:25:00",
+              "arrive": "2026-09-16T23:00:00",
+              "duration": "PT6H35M",
+              "airline": "JAL",
+              "flight": "JL0707"
+            }
+          ]
+        }
+      ],
+      "score": 81.74422808797442,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|NH|NH7603-NH7009-NH0847",
+      "offerId": "off_0000BAJv5p11WTlPm8sK5R",
+      "total": 1017.2,
+      "perPerson": 508.6,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "ANA",
+      "ownerCode": "NH",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 2499,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.821643Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT10H59M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "ORD",
+              "depart": "2026-09-13T14:26:00",
+              "arrive": "2026-09-13T17:00:00",
+              "duration": "PT2H34M",
+              "airline": "ANA",
+              "flight": "NH7603"
+            },
+            {
+              "from": "ORD",
+              "to": "HND",
+              "depart": "2026-09-14T12:00:00",
+              "arrive": "2026-09-15T15:25:00",
+              "duration": "PT13H25M",
+              "airline": "ANA",
+              "flight": "NH7009"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H40M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T10:50:00",
+              "arrive": "2026-09-16T15:30:00",
+              "duration": "PT6H40M",
+              "airline": "ANA",
+              "flight": "NH0847"
+            }
+          ]
+        }
+      ],
+      "score": 81.49748589430966,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|NH|NH7603-NH7009-NH0877",
+      "offerId": "off_0000BAJv5p1NVA2znF2bd1",
+      "total": 1017.2,
+      "perPerson": 508.6,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "ANA",
+      "ownerCode": "NH",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 2489,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.822033Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT10H59M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "ORD",
+              "depart": "2026-09-13T14:26:00",
+              "arrive": "2026-09-13T17:00:00",
+              "duration": "PT2H34M",
+              "airline": "ANA",
+              "flight": "NH7603"
+            },
+            {
+              "from": "ORD",
+              "to": "HND",
+              "depart": "2026-09-14T12:00:00",
+              "arrive": "2026-09-15T15:25:00",
+              "duration": "PT13H25M",
+              "airline": "ANA",
+              "flight": "NH7009"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T01:25:00",
+              "arrive": "2026-09-16T05:55:00",
+              "duration": "PT6H30M",
+              "airline": "ANA",
+              "flight": "NH0877"
+            }
+          ]
+        }
+      ],
+      "score": 81.49748589430966,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-13|NH|NH7603-NH7009-NH0849",
+      "offerId": "off_0000BAJv5p1NVA2znF2bdB",
+      "total": 1017.2,
+      "perPerson": 508.6,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "ANA",
+      "ownerCode": "NH",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 2479,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:18.822533Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT10H59M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "ORD",
+              "depart": "2026-09-13T14:26:00",
+              "arrive": "2026-09-13T17:00:00",
+              "duration": "PT2H34M",
+              "airline": "ANA",
+              "flight": "NH7603"
+            },
+            {
+              "from": "ORD",
+              "to": "HND",
+              "depart": "2026-09-14T12:00:00",
+              "arrive": "2026-09-15T15:25:00",
+              "duration": "PT13H25M",
+              "airline": "ANA",
+              "flight": "NH7009"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H20M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-16T00:15:00",
+              "arrive": "2026-09-16T04:35:00",
+              "duration": "PT6H20M",
+              "airline": "ANA",
+              "flight": "NH0849"
+            }
+          ]
+        }
+      ],
+      "score": 81.49748589430966,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-14|NH|NH7603-NH7009-NH0847",
+      "offerId": "off_0000BAJvJDRSLO1FbdKgjv",
+      "total": 1017.2,
+      "perPerson": 508.6,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "ANA",
+      "ownerCode": "NH",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 2499,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:44.069235Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT10H59M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "ORD",
+              "depart": "2026-09-14T14:26:00",
+              "arrive": "2026-09-14T17:00:00",
+              "duration": "PT2H34M",
+              "airline": "ANA",
+              "flight": "NH7603"
+            },
+            {
+              "from": "ORD",
+              "to": "HND",
+              "depart": "2026-09-15T12:00:00",
+              "arrive": "2026-09-16T15:25:00",
+              "duration": "PT13H25M",
+              "airline": "ANA",
+              "flight": "NH7009"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H40M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T10:50:00",
+              "arrive": "2026-09-17T15:30:00",
+              "duration": "PT6H40M",
+              "airline": "ANA",
+              "flight": "NH0847"
+            }
+          ]
+        }
+      ],
+      "score": 81.49748589430966,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|3|2|2026-09-14|NH|NH7603-NH7009-NH0877",
+      "offerId": "off_0000BAJvJDRoK4IpcjUyHd",
+      "total": 1017.2,
+      "perPerson": 508.6,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "ANA",
+      "ownerCode": "NH",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 2489,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:44.069584Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT10H59M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "ORD",
+              "depart": "2026-09-14T14:26:00",
+              "arrive": "2026-09-14T17:00:00",
+              "duration": "PT2H34M",
+              "airline": "ANA",
+              "flight": "NH7603"
+            },
+            {
+              "from": "ORD",
+              "to": "HND",
+              "depart": "2026-09-15T12:00:00",
+              "arrive": "2026-09-16T15:25:00",
+              "duration": "PT13H25M",
+              "airline": "ANA",
+              "flight": "NH7009"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T01:25:00",
+              "arrive": "2026-09-17T05:55:00",
+              "duration": "PT6H30M",
+              "airline": "ANA",
+              "flight": "NH0877"
+            }
+          ]
+        }
+      ],
+      "score": 81.49748589430966,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-14|NH|NH7603-NH7009-NH0849",
+      "offerId": "off_0000BAJvJDSAIkaPdpfFpl",
+      "total": 1017.2,
+      "perPerson": 508.6,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "ANA",
+      "ownerCode": "NH",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 2479,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:44.070264Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT10H59M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "ORD",
+              "depart": "2026-09-14T14:26:00",
+              "arrive": "2026-09-14T17:00:00",
+              "duration": "PT2H34M",
+              "airline": "ANA",
+              "flight": "NH7603"
+            },
+            {
+              "from": "ORD",
+              "to": "HND",
+              "depart": "2026-09-15T12:00:00",
+              "arrive": "2026-09-16T15:25:00",
+              "duration": "PT13H25M",
+              "airline": "ANA",
+              "flight": "NH7009"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H20M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T00:15:00",
+              "arrive": "2026-09-17T04:35:00",
+              "duration": "PT6H20M",
+              "airline": "ANA",
+              "flight": "NH0849"
+            }
+          ]
+        }
+      ],
+      "score": 81.49748589430966,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-14|NH|NH7603-NH7009-NH0847",
+      "offerId": "off_0000BAJvK1X1miFEeEcJ8s",
+      "total": 1525.8,
+      "perPerson": 508.59999999999997,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "ANA",
+      "ownerCode": "NH",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 2499,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:52.935679Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT10H59M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "ORD",
+              "depart": "2026-09-14T14:26:00",
+              "arrive": "2026-09-14T17:00:00",
+              "duration": "PT2H34M",
+              "airline": "ANA",
+              "flight": "NH7603"
+            },
+            {
+              "from": "ORD",
+              "to": "HND",
+              "depart": "2026-09-15T12:00:00",
+              "arrive": "2026-09-16T15:25:00",
+              "duration": "PT13H25M",
+              "airline": "ANA",
+              "flight": "NH7009"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H40M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T10:50:00",
+              "arrive": "2026-09-17T15:30:00",
+              "duration": "PT6H40M",
+              "airline": "ANA",
+              "flight": "NH0847"
+            }
+          ]
+        }
+      ],
+      "score": 81.49748589430966,
+      "isNewLow": true
+    },
+    {
+      "id": "TYO|3|3|2026-09-14|NH|NH7603-NH7009-NH0877",
+      "offerId": "off_0000BAJvK1XNlOWofKmagg",
+      "total": 1525.8,
+      "perPerson": 508.59999999999997,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "ANA",
+      "ownerCode": "NH",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 2489,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:52.935858Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT10H59M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "ORD",
+              "depart": "2026-09-14T14:26:00",
+              "arrive": "2026-09-14T17:00:00",
+              "duration": "PT2H34M",
+              "airline": "ANA",
+              "flight": "NH7603"
+            },
+            {
+              "from": "ORD",
+              "to": "HND",
+              "depart": "2026-09-15T12:00:00",
+              "arrive": "2026-09-16T15:25:00",
+              "duration": "PT13H25M",
+              "airline": "ANA",
+              "flight": "NH7009"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T01:25:00",
+              "arrive": "2026-09-17T05:55:00",
+              "duration": "PT6H30M",
+              "airline": "ANA",
+              "flight": "NH0877"
+            }
+          ]
+        }
+      ],
+      "score": 81.49748589430966,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|3|2026-09-14|NH|NH7603-NH7009-NH0849",
+      "offerId": "off_0000BAJvK1XNlOWofKmagq",
+      "total": 1525.8,
+      "perPerson": 508.59999999999997,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "ANA",
+      "ownerCode": "NH",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 2479,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:52.936148Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "HND",
+          "duration": "P1DT10H59M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "ORD",
+              "depart": "2026-09-14T14:26:00",
+              "arrive": "2026-09-14T17:00:00",
+              "duration": "PT2H34M",
+              "airline": "ANA",
+              "flight": "NH7603"
+            },
+            {
+              "from": "ORD",
+              "to": "HND",
+              "depart": "2026-09-15T12:00:00",
+              "arrive": "2026-09-16T15:25:00",
+              "duration": "PT13H25M",
+              "airline": "ANA",
+              "flight": "NH7009"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H20M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T00:15:00",
+              "arrive": "2026-09-17T04:35:00",
+              "duration": "PT6H20M",
+              "airline": "ANA",
+              "flight": "NH0849"
+            }
+          ]
+        }
+      ],
+      "score": 81.49748589430966,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|3|2|2026-09-13|JL|JL7013-JL0229-JL0727",
+      "offerId": "off_0000BAJvAXtAx8WQPoAEFC",
+      "total": 1445.2,
+      "perPerson": 722.6,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1605,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:10.215275Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "KIX",
+          "duration": "PT21H",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T10:55:00",
+              "arrive": "2026-09-14T14:20:00",
+              "duration": "PT13H25M",
+              "airline": "JAL",
+              "flight": "JL7013"
+            },
+            {
+              "from": "HND",
+              "to": "KIX",
+              "depart": "2026-09-14T20:40:00",
+              "arrive": "2026-09-14T21:55:00",
+              "duration": "PT1H15M",
+              "airline": "JAL",
+              "flight": "JL0229"
+            }
+          ]
+        },
+        {
+          "origin": "KIX",
+          "destination": "BKK",
+          "duration": "PT5H45M",
+          "segments": [
+            {
+              "from": "KIX",
+              "to": "BKK",
+              "depart": "2026-09-16T00:55:00",
+              "arrive": "2026-09-16T04:40:00",
+              "duration": "PT5H45M",
+              "airline": "JAL",
+              "flight": "JL0727"
+            }
+          ]
+        }
+      ],
+      "score": 81.45125260310057,
+      "isNewLow": false
+    },
+    {
+      "id": "OSA|3|3|2026-09-13|JL|JL7013-JL0229-JL0727",
+      "offerId": "off_0000BAJvB4mXFcdnBNdLXn",
+      "total": 2167.8,
+      "perPerson": 722.6,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "OSA",
+      "stopoverNights": 3,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-16",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 1,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1605,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:15.877071Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "KIX",
+          "duration": "PT21H",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "HND",
+              "depart": "2026-09-13T10:55:00",
+              "arrive": "2026-09-14T14:20:00",
+              "duration": "PT13H25M",
+              "airline": "JAL",
+              "flight": "JL7013"
+            },
+            {
+              "from": "HND",
+              "to": "KIX",
+              "depart": "2026-09-14T20:40:00",
+              "arrive": "2026-09-14T21:55:00",
+              "duration": "PT1H15M",
+              "airline": "JAL",
+              "flight": "JL0229"
+            }
+          ]
+        },
+        {
+          "origin": "KIX",
+          "destination": "BKK",
+          "duration": "PT5H45M",
+          "segments": [
+            {
+              "from": "KIX",
+              "to": "BKK",
+              "depart": "2026-09-16T00:55:00",
+              "arrive": "2026-09-16T04:40:00",
+              "duration": "PT5H45M",
+              "airline": "JAL",
+              "flight": "JL0727"
+            }
+          ]
+        }
+      ],
+      "score": 81.45125260310057,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|2|2026-09-13|JL|JL7011-JL0033",
+      "offerId": "off_0000BAJv7aFfNxF6Z7Z3Yg",
+      "total": 2682,
+      "perPerson": 1341,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:37.878174Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T01:20:00",
+              "arrive": "2026-09-17T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.43877284943845,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|2|2026-09-13|JL|JL7011-JL0033",
+      "offerId": "off_0000BAJv9DM1oZHgRG1bBi",
+      "total": 2682,
+      "perPerson": 1341,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:55.699225Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-18T01:20:00",
+              "arrive": "2026-09-18T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.43877284943845,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|3|2|2026-09-14|JL|JL7011-JL0033",
+      "offerId": "off_0000BAJvJCdTLE2L6bwlpN",
+      "total": 2682,
+      "perPerson": 1341,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 3,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:35:43.976431Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-14T11:40:00",
+              "arrive": "2026-09-15T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T01:20:00",
+              "arrive": "2026-09-17T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.43877284943845,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|2|2026-09-14|JL|JL7011-JL0033",
+      "offerId": "off_0000BAJvKneor2zvuIdCxG",
+      "total": 2682,
+      "perPerson": 1341,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:36:01.358030Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-14T11:40:00",
+              "arrive": "2026-09-15T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-18T01:20:00",
+              "arrive": "2026-09-18T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.43877284943845,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|2|2026-09-14|JL|JL7011-JL0033",
+      "offerId": "off_0000BAJvMTT2tJNJrtvH22",
+      "total": 2682,
+      "perPerson": 1341,
+      "currency": "USD",
+      "partySize": 2,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-14",
+      "onwardDate": "2026-09-19",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:36:19.548145Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-14T11:40:00",
+              "arrive": "2026-09-15T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-19T01:20:00",
+              "arrive": "2026-09-19T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.43877284943845,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|4|3|2026-09-13|JL|JL7011-JL0033",
+      "offerId": "off_0000BAJv8PyC1AvS1kopJO",
+      "total": 4023,
+      "perPerson": 1341,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 4,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-17",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:33:47.081071Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-17T01:20:00",
+              "arrive": "2026-09-17T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.43877284943845,
+      "isNewLow": false
+    },
+    {
+      "id": "TYO|5|3|2026-09-13|JL|JL7011-JL0033",
+      "offerId": "off_0000BAJvA2uohlEn6X13Z5",
+      "total": 4023,
+      "perPerson": 1341,
+      "currency": "USD",
+      "partySize": 3,
+      "gateway": "TYO",
+      "stopoverNights": 5,
+      "departDate": "2026-09-13",
+      "onwardDate": "2026-09-18",
+      "owner": "JAL",
+      "ownerCode": "JL",
+      "connections": 0,
+      "lateDfw": false,
+      "longHaulAtNight": false,
+      "totalMinutes": 1185,
+      "selfTransfer": false,
+      "expiresAt": "2026-09-12T04:34:04.763553Z",
+      "slices": [
+        {
+          "origin": "DFW",
+          "destination": "NRT",
+          "duration": "PT13H20M",
+          "segments": [
+            {
+              "from": "DFW",
+              "to": "NRT",
+              "depart": "2026-09-13T11:40:00",
+              "arrive": "2026-09-14T15:00:00",
+              "duration": "PT13H20M",
+              "airline": "JAL",
+              "flight": "JL7011"
+            }
+          ]
+        },
+        {
+          "origin": "HND",
+          "destination": "BKK",
+          "duration": "PT6H25M",
+          "segments": [
+            {
+              "from": "HND",
+              "to": "BKK",
+              "depart": "2026-09-18T01:20:00",
+              "arrive": "2026-09-18T05:45:00",
+              "duration": "PT6H25M",
+              "airline": "JAL",
+              "flight": "JL0033"
+            }
+          ]
+        }
+      ],
+      "score": 81.43877284943845,
+      "isNewLow": false
+    }
+  ]
 }
-

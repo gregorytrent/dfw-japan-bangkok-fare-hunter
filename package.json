@@ -1,0 +1,10 @@
+{
+  "name": "dfw-japan-bangkok-fare-hunter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "search": "node scripts/search.mjs",
+    "test": "node --check scripts/search.mjs && node --check app.js"
+  }
+}
+

@@ -76,7 +76,7 @@ async function search(job) {
   });
   if (!response.ok) throw new Error(`Duffel ${response.status}: ${(await response.text()).slice(0, 300)}`);
   const json = await response.json();
-  return (json.data?.offers || []).map(o => normalize(o, job));
+  const excluded = new Set(config.excludedAirlines || []);\n  return (json.data?.offers || []).filter(o => !(o.slices || []).flatMap(s => s.segments || []).some(seg => excluded.has(seg.marketing_carrier?.iata_code) || excluded.has(seg.operating_carrier?.iata_code))).map(o => normalize(o, job));
 }
 
 const fresh = [];

@@ -1,35 +1,20 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#071d2b"><title>Pacific Fare Hunter</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071d2b"><title>Thailand Trip Command Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head>
 <body>
-  <header class="hero"><nav><span class="brand">PACIFIC FARE HUNTER</span><span class="route">DFW <b>→</b> JAPAN <b>→</b> BANGKOK</span></nav>
-    <div class="hero-copy"><p class="eyebrow">90-DAY MULTI-CITY SCAN</p><h1>Find the fare.<br><em>Keep the journey.</em></h1><p>Price-first intelligence for a 3–5 night Japan stopover, optimized for fewer connections and overnight long-haul flying.</p></div>
-    <div class="stats"><div><span id="bestFare">—</span><small>BEST PER PERSON</small></div><div><span id="bestParty">—</span><small>BEST PARTY TOTAL</small></div><div><span id="scanTime">—</span><small>LAST LIVE SCAN</small></div></div>
-  </header>
-  <main>
-    <section class="controls">
-      <label>Travelers<select id="party"><option value="all">2 or 3</option><option>2</option><option>3</option></select></label>
-      <label>Japan stay<select id="nights"><option value="all">3–5 nights</option><option value="3">3 nights</option><option value="4">4 nights</option><option value="5">5 nights</option></select></label>
-      <label>Japan gateway<select id="gateway"><option value="all">Any gateway</option><option value="TYO">Tokyo</option><option value="OSA">Osaka</option><option value="NGO">Nagoya</option><option value="FUK">Fukuoka</option></select></label>
-      <label>Connections<select id="connections"><option value="all">Up to 2 total</option><option value="0">Nonstop slices only</option><option value="1">Up to 1 total</option><option value="2">Up to 2 total</option></select></label>
-      <label class="toggle"><input type="checkbox" id="night"><span></span>Late DFW departure</label>
-      <label class="toggle"><input type="checkbox" id="lowest"><span></span>New price lows only</label>
-    </section>
-    <section class="bar"><div><h2>Ranked opportunities</h2><p id="coverage">Loading live fare data…</p></div><select id="sort"><option value="score">Best overall</option><option value="price">Lowest price</option><option value="stops">Fewest connections</option></select></section>
-    <section id="results" class="results"></section>
-    <section class="playbook"><p class="eyebrow">PRICE-REDUCTION PLAYBOOK</p><h2>How this search squeezes the fare</h2><div class="play-grid">
-      <article><b>01</b><h3>Split the party test</h3><p>Compare 2 seats against 3. One scarce fare bucket can raise every ticket.</p></article>
-      <article><b>02</b><h3>Gateway arbitrage</h3><p>Tokyo, Osaka, Nagoya, and Fukuoka compete; the cheapest entry point wins.</p></article>
-      <article><b>03</b><h3>Stay-length sweep</h3><p>Three, four, and five nights are priced independently across the window.</p></article>
-      <article><b>04</b><h3>Buy with discipline</h3><p>Verify bags and change terms, use a 24-hour hold where eligible, and pay in the displayed currency without costly card conversion.</p></article>
-    </div></section>
-  </main><footer>Offers can expire or change before purchase. Verify the final itinerary and price with the seller.</footer>
-  <script src="app.js" type="module"></script>
-</body></html>
-
+<header class="hero"><nav><span class="brand">THAILAND TRIP COMMAND CENTER</span><span class="route">DFW <b>→</b> TOKYO <b>→</b> BANGKOK</span></nav>
+<div class="hero-copy"><p class="eyebrow">BOOKED TRIP + LIVE FARE INTELLIGENCE</p><h1>One trip.<br><em>One source of truth.</em></h1><p>Your booked itinerary, traveler costs, seats, confirmation details and live fare opportunities in one fast, mobile-friendly dashboard.</p></div>
+<div class="stats"><div><span id="countdown">—</span><small>DAYS TO DEPARTURE</small></div><div><span id="paidTotal">—</span><small>PAID SO FAR</small></div><div><span id="rogerShare">—</span><small>ROGER'S PORTION</small></div><div><span id="scanTime">—</span><small>LAST FARE SCAN</small></div></div></header>
+<main>
+<section class="quicknav"><a href="#booked">Booked Trip</a><a href="#travelers">Traveler Costs</a><a href="#farewatch">Fare Watch</a><button id="copySummary">Copy Trip Summary</button></section>
+<section id="booked" class="panel"><div class="sectionhead"><div><p class="eyebrow">QUICK REFERENCE</p><h2>Booked itinerary</h2></div><span class="status">BOOKED</span></div>
+<div id="bookingFacts" class="factgrid"></div><div id="timeline" class="timeline"></div></section>
+<section id="travelers" class="panel"><div class="sectionhead"><div><p class="eyebrow">WHO OWES WHAT</p><h2>Traveler cost & seat ledger</h2></div></div>
+<div id="travelerCards" class="travelergrid"></div><div id="costTotals" class="costtotals"></div></section>
+<section id="farewatch"><div class="sectionhead"><div><p class="eyebrow">LIVE SEARCH ENGINE</p><h2>Fare watch</h2><p id="coverage">Loading live fare data…</p></div><div><strong id="bestFare">—</strong><small> BEST LIVE / PERSON</small></div></div>
+<section class="controls"><label>Travelers<select id="party"><option value="all">2 or 3</option><option>2</option><option>3</option></select></label><label>Japan stay<select id="nights"><option value="all">3–5 nights</option><option value="3">3 nights</option><option value="4">4 nights</option><option value="5">5 nights</option></select></label><label>Japan gateway<select id="gateway"><option value="all">Any gateway</option><option value="TYO">Tokyo</option><option value="OSA">Osaka</option><option value="NGO">Nagoya</option><option value="FUK">Fukuoka</option></select></label><label>Connections<select id="connections"><option value="all">Up to 2 total</option><option value="0">Nonstop slices only</option><option value="1">Up to 1 total</option><option value="2">Up to 2 total</option></select></label><label class="toggle"><input type="checkbox" id="night"> Late DFW departure</label><label class="toggle"><input type="checkbox" id="lowest"> New price lows only</label><label>Sort<select id="sort"><option value="score">Best overall</option><option value="price">Lowest price</option><option value="stops">Fewest connections</option></select></label></section>
+<section id="results" class="results"></section></section>
+<section class="panel checklist"><div class="sectionhead"><div><p class="eyebrow">OPEN ITEMS</p><h2>Trip checklist</h2></div></div><div id="checklist"></div></section>
+</main><footer>Trip details are a personal quick-reference. Always verify airline schedules, seats, baggage rules and final prices with the carrier.</footer><script src="app.js" type="module"></script></body></html>

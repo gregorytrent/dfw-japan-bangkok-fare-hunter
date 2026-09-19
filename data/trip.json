@@ -1,0 +1,17 @@
+{
+  "tripName": "DFW → Tokyo → Bangkok",
+  "status": "Booked",
+  "travelers": [
+    {"name":"Gregory Trent","role":"Primary","airfare":957.30,"aaSeat":"26L","aaSeatType":"Window","aaSeatCost":113.68},
+    {"name":"Edwina Trent","role":"Traveler","airfare":957.30,"aaSeat":"26K","aaSeatType":"Middle","aaSeatCost":113.68},
+    {"name":"Roger Trent","role":"Traveler","airfare":957.30,"aaSeat":"26J","aaSeatType":"Aisle","aaSeatCost":113.68}
+  ],
+  "totals":{"airfare":2871.90,"aaSeats":341.04,"tripPaidSoFar":3212.94,"rogerShare":1070.98,"gregoryEdwinaShare":2141.96},
+  "booking":{"americanRecordLocator":"AGAJMP","jalRecordLocator":"Pending / locate from JAL","jalSeats":"Not yet selected"},
+  "segments":[
+    {"date":"2026-11-01","carrier":"American Airlines","flight":"AA 281","from":"DFW","to":"HND","depart":"10:35 AM","arrive":"3:30 PM +1 day","cabin":"Economy / Main Cabin","notes":"Main Cabin Extra seats purchased"},
+    {"date":"2026-11-06","carrier":"Japan Airlines","flight":"JL 31","from":"HND","to":"BKK","depart":"11:20 AM","arrive":"4:25 PM","cabin":"Economy (O)","notes":"Japan is 2 hours ahead of Bangkok; scheduled elapsed time about 7h 5m"}
+  ],
+  "japanStopover":{"arrival":"2026-11-02","onward":"2026-11-06","city":"Tokyo"},
+  "notes":["Frontier Airlines excluded from all flight recommendations.","Foreign-currency amounts should also display a USD equivalent."]
+}
